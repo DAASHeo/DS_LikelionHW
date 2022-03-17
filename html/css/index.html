@@ -6,6 +6,7 @@
         <title>은님의 페이지</title>
         <link rel="icon" type="image/png" href="logo1.png" />
         <link rel="stylesheet" href="index.css" />
+        <link rel="stylesheet" href="slide.css" />
     </head>
     <body>
         <div id="sidebar">
@@ -24,8 +25,50 @@
             <section class="home" id="home">
                 <section class="introduce">
                     <h2>Introduce</h2>
-                    <div class="float-wrap">
-                        <p class="desc-text">안녕하세요. 웹과 앱 프론트엔드 개발자 및 기획자를 목표로 하고 있습니다.</p>
+                    <div class="aboutme_base">
+                        <div class="aboutme_wrapper">
+                            <div class="icon-text">🙍</div>
+                            <div class="info_wrapper">
+                                <div class="category-text">이름</div>
+                                <div class="detail-text">허 은</div>
+                            </div>
+                        </div>
+                        
+                            <div class="aboutme_wrapper">
+                                <div class="icon-text">🎉</div>
+                                <div class="info_wrapper">
+                                    <div class="category-text">생일</div>
+                                    <div class="detail-text">07.19</div>
+                                </div>
+                            </div>
+                            <div class="aboutme_wrapper">
+                                <div class="icon-text">✅</div>
+                                <div class="info_wrapper">
+                                    <div class="category-text">MBTI</div>
+                                    <div class="detail-text">ISTJ</div>
+                                </div>
+                            </div>
+                            <div class="aboutme_wrapper">
+                                <div class="icon-text">💻</div>
+                                <div class="info_wrapper">
+                                    <div class="category-text">희망 직군</div>
+                                    <div class="detail-text">웹·앱 프론트엔드 개발</div>
+                                </div>
+                            </div>
+                            <div class="aboutme_wrapper">
+                                <div class="icon-text">💌</div>
+                                <div class="info_wrapper">
+                                    <div class="category-text">Mail</div>
+                                    <div class="detail-text">hibstar719@naver.com</div>
+                                </div>
+                            </div>
+                            <div class="aboutme_wrapper">
+                                <div class="icon-text">🏙️</div>
+                                <div class="info_wrapper">
+                                    <div class="category-text">거주지</div>
+                                    <div class="detail-text">대한민국</div>
+                                </div>
+                            </div>
                     </div>
                 </section>
                 <section class="interests">
@@ -42,6 +85,10 @@
                         <a class="desc-text"><img src="https://img.shields.io/badge/React%20Native-020202?style=flat-square&logo=create%20react%20app&logoColor=#36d3f3" width="350px" height="75px"/></a>
                         <a class="desc-text"><img src="https://img.shields.io/badge/Android%20Studio-020202?style=flat-square&logo=android%20studio&logoColor=#46d484" width="400px" height="75px"/></a>
                     </div>
+                    <div class="float-wrap">
+                        <a class="desc-text"><img src="https://img.shields.io/badge/Framer-000000?style=flat-square&logo=framer&logoColor=white" width="250px" height="75px"/></a>
+                        <a class="desc-text"><img src="https://img.shields.io/badge/Figma-000000?style=flat-square&logo=figma&logoColor=white" width="250px" height="75px"/></a>
+                        </div>
                 </section>
             </section>
             <section class="about" id="about">
@@ -81,27 +128,98 @@
                     <p class="desc-text">-CS50 코칭스터디 2기</p>
                 </section>
             </section>
+            <!-- 프로젝트 페이지 -->
             <section class="project" id="project">
                 <section class="prj">
                     <br><br>
                     <h2>Project</h2>
-                    <div class="float-wrap">
-                    <p class="title-text">Duksung Women's University</p>
-                    <p class="year-text">2020 - Now</p>
-                    </div>
-                    <p class="desc-text">IT Media Engineering 20</p>
+                        <div class="slidebox">
+                            <input type="radio" name="slide" id="slide01" checked>
+                            <input type="radio" name="slide" id="slide02">
+                            <input type="radio" name="slide" id="slide03">
+                                <ul class="slidelist">
+                                    <li class="slideitem">
+                                        <a href="https://highfalutin-nectarine-341.notion.site/f23d9fd31c4445eb9c5c7cf75ef85f3e">
+                                            <label for="slide03" class="prev"></label>
+                                            <img src="wojoo.png">
+                                            <label for="slide02" class="next"></label>
+                                        </a>
+                                    </li>
+                                    <li class="slideitem">
+                                        <a href="https://highfalutin-nectarine-341.notion.site/MOMOMU-21ea83ae41e8411c9464ce49d8ac1e7a">
+                                            <label for="slide01" class="prev"></label>
+                                            <img src="003.png">
+                                            <label for="slide03" class="next"></label>
+                                        </a>
+                                    </li>
+                                    <li class="slideitem">
+                                        <a>
+                                            <label for="slide02" class="prev"></label>
+                                            <img src="002.png">
+                                            <label for="slide01" class="next"></label>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="slide-pagelist">
+                                        <li><label for="slide01"></label></li>
+                                        <li><label for="slide02"></label></li>
+                                        <li><label for="slide03"></label></li>
+                                </ul>
+                        </div>
                 </section>
             </section>
+            <!-- 주소 페이지 -->
             <section class="contact" id="contact">
                 <section class="inform">
                     <br><br>
-                    <h2>Contact</h2>
-                    <div class="float-wrap">
-                    <p class="title-text">Duksung Women's University</p>
-                    <p class="year-text">2020 - Now</p>
-                    </div>
-                    <p class="desc-text">IT Media Engineering 20</p>
+                        <section class="introduce">
+                            <h2>Contact</h2>
+                            <div class="aboutme_base">
+                                <div class="aboutme_wrapper">
+                                    <div class="icon-text"><a href="https://instagram.com/rlo_heo?utm_medium=copy_link">
+                                        <img src="https://img.shields.io/badge/-ffffff?style=flat-square&logo=instagram&logoColor=black" width="100px"/>
+                                        </a>
+                                    </div>
+                                    <div class="info_wrapper">
+                                        <div class="category-text">
+                                            <a href="https://instagram.com/rlo_heo?utm_medium=copy_link">Instagram 바로가기</a>
+                                            </div>
+                                        <div class="detail-text">@rlo_heo</div>
+                                    </div>
+                                </div>
+                                
+                                    <div class="aboutme_wrapper">
+                                        <div class="icon-text">
+                                            <a href="https://github.com/DAASHeo">
+                                            <img src="https://img.shields.io/badge/-ffffff?style=flat-square&logo=github&logoColor=black" width="100px"/></div>
+                                            </a>
+                                        <div class="info_wrapper">
+                                            <div class="category-text">
+                                                <a href="https://github.com/DAASHeo">GitHub 바로가기</a>
+                                            </div>
+                                            <div class="detail-text">@DAASHeo</div>
+                                        </div>
+                                    </div>
+                                    <div class="aboutme_wrapper">
+                                        <div class="icon-text">
+                                            <a href="https://velog.io/@eheo">
+                                            <img src="https://img.shields.io/badge/-ffffff?style=flat-square&logo=velog&logoColor=black" href="https://velog.io/@eheo" width="100px"/></div>
+                                            </a>
+                                        <div class="info_wrapper">
+                                            <div class="category-text">
+                                                <a href="https://velog.io/@eheo">Velog 바로가기</a>
+                                                </div>
+                                            <div class="detail-text">@eheo</div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </section>
                 </section>
+                <!-- <h1 class="text"></h1> -->
+                <div class="text_box" data-trigger>
+                    <span class="text"></span><span class="blink">|</span>
+                    <script src="index.js"></script>
+                  </div>
             </section>
             <footer>
                 <ul>
