@@ -1,13 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Schoolbell&display=swap");
 @font-face {
-  font-family: 'ghanachoco';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ghanachoco.woff') format('woff');
+  font-family: "ghanachoco";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ghanachoco.woff")
+    format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'LeferiPoint-WhiteObliqueA';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteObliqueA.woff') format('woff');
+  font-family: "LeferiPoint-WhiteObliqueA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteObliqueA.woff")
+    format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -44,7 +46,7 @@ body {
 }
 .logo {
   font-size: 30px;
-  font-family: 'ghanachoco';
+  font-family: "ghanachoco";
   letter-spacing: 0.1em;
   text-decoration: none;
   align-items: center;
@@ -65,7 +67,7 @@ body {
 .menu {
   overflow: visible;
   align-items: center;
-  font-family: 'LeferiPoint-WhiteObliqueA';
+  font-family: "LeferiPoint-WhiteObliqueA";
   position: fixed;
   margin: 23% 2% 2% 0%;
 }
@@ -105,8 +107,8 @@ nav ul li a:hover {
   border-bottom: 2px solid #cacaca;
 }
 
-.education{
-  margin: 10% 5% 5% 5%;
+.education {
+  margin: 5% 5% 5% 5%;
 }
 
 .introduce {
@@ -116,8 +118,7 @@ nav ul li a:hover {
 .activities,
 .inform,
 .prj,
-.interests
-{
+.interests {
   margin: 5%;
 }
 
@@ -191,13 +192,13 @@ h1 {
   margin: 2% 0% 2% 0%;
 }
 
-.aboutme_base{
+.aboutme_base {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   -webkit-box-pack: justify;
 }
-.aboutme_wrapper{
+.aboutme_wrapper {
   margin-bottom: 2rem;
   margin-top: 4rem;
   width: 33.3333%;
@@ -211,7 +212,7 @@ h1 {
   flex-flow: row nowrap;
   max-width: 14rem;
   margin: 0% 4% 0% 0%;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .category-text {
@@ -225,7 +226,7 @@ h1 {
   font-size: 17px;
 }
 
-.text_box{
+.text_box {
   display: flex;
   justify-content: center;
   align-items: center;
