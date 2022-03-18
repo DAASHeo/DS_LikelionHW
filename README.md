@@ -6,7 +6,7 @@
 
 ## 1. main
 
-![main]](https://user-images.githubusercontent.com/64454313/158950464-dae2ef14-b965-4d90-a8c5-c23562613f6d.PNG)
+![main](https://user-images.githubusercontent.com/64454313/158950464-dae2ef14-b965-4d90-a8c5-c23562613f6d.PNG)
 
 ## 2. about me
 
